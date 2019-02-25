@@ -26,14 +26,12 @@ REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 setup(
     name=NAME,
     version=VERSION,
-    description="Marquez",
+    description="Auto-generated python client for Marquez",
     author_email="",
     url="",
     keywords=["OpenAPI", "OpenAPI-Generator", "Marquez"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description="""\
-    Marquez is an open source **metadata service** for the **collection**, **aggregation**, and **visualization** of a data ecosystem&#39;s metadata.  # noqa: E501
-    """
+    long_description=""
 )
