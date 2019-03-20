@@ -62,3 +62,12 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# IDE
+.idea
+
+# Misc
+*.swp
+
+# Auto-generated tests
+marquez_codegen_client/test/
